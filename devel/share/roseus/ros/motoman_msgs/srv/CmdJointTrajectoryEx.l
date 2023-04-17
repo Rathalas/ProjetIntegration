@@ -1,0 +1,1 @@
+/home/etudiant/Bureau/catkin_ws/devel/.private/motoman_msgs/share/roseus/ros/motoman_msgs/srv/CmdJointTrajectoryEx.l

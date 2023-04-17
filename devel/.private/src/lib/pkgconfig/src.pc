@@ -1,0 +1,8 @@
+prefix=/home/etudiant/Bureau/catkin_ws/devel/.private/src
+
+Name: src
+Description: Description of src
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

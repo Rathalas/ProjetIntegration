@@ -1,0 +1,1 @@
+/home/etudiant/Bureau/catkin_ws/devel/.private/hc10/lib/pkgconfig/hc10.pc

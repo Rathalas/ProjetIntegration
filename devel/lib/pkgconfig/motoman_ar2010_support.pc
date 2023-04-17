@@ -1,0 +1,1 @@
+/home/etudiant/Bureau/catkin_ws/devel/.private/motoman_ar2010_support/lib/pkgconfig/motoman_ar2010_support.pc

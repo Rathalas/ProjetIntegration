@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="hc10_moveit" pkg="hc10" type="move_robot.py" respawn="false" output="screen"></node>
+
+</launch>
