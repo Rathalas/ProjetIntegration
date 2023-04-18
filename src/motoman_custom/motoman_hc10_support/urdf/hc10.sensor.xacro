@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- hc10.sensor.xacro -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <link name="camera_depth_frame"/>
+
+    <!-- Attach Kinect to tool -->
+    <joint type="fixed" name="tool0_sensor">
+        <origin xyz="0.15 -1 0.1" rpy="0 0 1.57"/>
+        <child link="camera_depth_frame"/>
+        <parent link="tool0"/>
+        <axis xyz="0 0 0" rpy="0 0 0"/>
+        <limit effort="10000" velocity="1000"/>
+        <dynamics damping="1.0" friction="1.0"/>
+    </joint>
+</robot>
