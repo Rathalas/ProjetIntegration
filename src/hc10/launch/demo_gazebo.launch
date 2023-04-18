@@ -20,4 +20,6 @@
   </include>
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
     <node pkg="tf" type="static_transform_publisher" name ="camera_to_optical_tf" args ="0 0 0 4.71238890.38 0 -1.57079632679 camera_depth_frame camera_depth_optical_frame 10"/>
+    <!-- spawn a cube for pick and place -->
+    <node name="spawn_cube" pkg="gazebo_ros" type="spawn_model" args="-file $(find motoman_hc10_support)/urdf/cube.urdf -urdf -model cube" />
 </launch>

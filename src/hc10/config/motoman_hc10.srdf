@@ -24,18 +24,42 @@
     <group_state name="home" group="hc_arm">
         <joint name="joint_1_s" value="0"/>
         <joint name="joint_2_l" value="0"/>
-        <joint name="joint_3_u" value="3.0023"/>
-        <joint name="joint_4_r" value="0"/>
-        <joint name="joint_5_b" value="0"/>
+        <joint name="joint_3_u" value="0.1211"/>
+        <joint name="joint_4_r" value="1.3712"/>
+        <joint name="joint_5_b" value="1.0587"/>
+        <joint name="joint_6_t" value="-1.753"/>
+    </group_state>
+    <group_state name="arriere" group="hc_arm">
+        <joint name="joint_1_s" value="-0.1909"/>
+        <joint name="joint_2_l" value="1.024"/>
+        <joint name="joint_3_u" value="1.5443"/>
+        <joint name="joint_4_r" value="0.1215"/>
+        <joint name="joint_5_b" value="-1.8571"/>
         <joint name="joint_6_t" value="0"/>
     </group_state>
-    <group_state name="end" group="hc_arm">
-        <joint name="joint_1_s" value="0"/>
-        <joint name="joint_2_l" value="-1.1629"/>
-        <joint name="joint_3_u" value="1.6832"/>
-        <joint name="joint_4_r" value="0"/>
-        <joint name="joint_5_b" value="0"/>
+    <group_state name="side" group="hc_arm">
+        <joint name="joint_1_s" value="0.7463"/>
+        <joint name="joint_2_l" value="1.024"/>
+        <joint name="joint_3_u" value="1.5443"/>
+        <joint name="joint_4_r" value="1.0935"/>
+        <joint name="joint_5_b" value="-1.8918"/>
         <joint name="joint_6_t" value="0"/>
+    </group_state>
+    <group_state name="side2" group="hc_arm">
+        <joint name="joint_1_s" value="-1.4753"/>
+        <joint name="joint_2_l" value="1.024"/>
+        <joint name="joint_3_u" value="1.5443"/>
+        <joint name="joint_4_r" value="-0.1562"/>
+        <joint name="joint_5_b" value="-1.753"/>
+        <joint name="joint_6_t" value="-0.0521"/>
+    </group_state>
+    <group_state name="haut" group="hc_arm">
+        <joint name="joint_1_s" value="-0.0174"/>
+        <joint name="joint_2_l" value="0.0868"/>
+        <joint name="joint_3_u" value="1.7526"/>
+        <joint name="joint_4_r" value="-0.0521"/>
+        <joint name="joint_5_b" value="-1.6836"/>
+        <joint name="joint_6_t" value="-0.0174"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="hand" parent_link="link_6_t" group="hand"/>

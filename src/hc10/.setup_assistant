@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: Upssitech
     author_email: bastien.rabiniaux@univ-tlse3.fr
-    generated_timestamp: 1681741460
+    generated_timestamp: 1681824291
