@@ -7,5 +7,6 @@
   <xacro:include filename="$(find motoman_hc10_support)/urdf/hc10.gazebo.xacro"/>
   <xacro:hc10_gazebo prefix=""/>
   <xacro:include filename="$(find motoman_hc10_support)/urdf/hc10.sensor.xacro"/>
+  <xacro:include filename="$(find motoman_hc10_support)/urdf/kinect_camera.gazebo.xacro"/>
 
 </robot>
